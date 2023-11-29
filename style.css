@@ -1,0 +1,122 @@
+li{
+    list-style: none;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display:flex;
+    background-color: black;
+    display:flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:10%;
+    position: sticky;
+    top:0px
+}       
+.menubar{
+    display:flex;
+    margin-right: 150px;
+    
+}
+.menubar li{
+    margin: 5px;
+    color:darkgray;
+}
+.logo{
+    font-size:42px;
+    margin-left: 150px;
+}
+.btn{
+    width:150px;
+    height:60px;
+    color:white;
+    border-radius: 10px;
+    border:0px;
+    background-color: blue;
+    text-transform: uppercase;
+
+
+}
+.pagehead{
+    color:white;
+    font-weight: bold;
+}
+.page-font{
+    font-size: 50px;
+}
+.pagebody{
+    font-size:30px;
+
+}
+.bg-container{
+    background-image: url("https://media.istockphoto.com/id/1248542684/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=6aJX8oyUBsSBZFQUCJDP7KZ1y4vrf-wEH_SJsuq7B5I=");
+    background-size: cover;
+    height:50%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    width:40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-top: 20px; */
+}
+.imgsrc1{
+    width:50%;
+    height:50%;
+    border-radius: 50%;
+    
+    /* margin-top:40px; */
+    /* padding-left: 40px; */
+
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.profile{
+    text-align: end;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.profile1{
+    text-align: start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.display{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.footerbanner{
+    display:flex;
+    background-color: black;
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:10%;
+    margin-top: 10px;
+}
+body{
+    margin:-2px
+}
+li:hover{
+    color:white;
+}
